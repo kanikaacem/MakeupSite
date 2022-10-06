@@ -1,13 +1,12 @@
 import CustomizeCarousel from "../CustomizeCarousel";
 import Section2 from "../Section2";
-import Testimonial from "../Testimonial";
-import ContactUs from "./ContactUs";
+import Section3 from "../Section3";
+
 function MiddleContent(){
     return (<>
     <CustomizeCarousel></CustomizeCarousel>
     <Section2></Section2>
-    <Testimonial></Testimonial>
-    <ContactUs></ContactUs>
+    <Section3></Section3>
     </>)
 }
 export default MiddleContent;

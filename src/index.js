@@ -4,13 +4,19 @@ import './index.css';
 import App from './App';
 import {createStore} from 'redux';
 import { Provider } from "react-redux";
+
 const initalState = {
-    isLoading :false
+    theme :'light'
 }
 const reducer = (state,action) =>{
     switch(action.type){
         case "LOADED":
             return {...initalState,isLoading:false}
+        case "MOVE_TO_TOP":
+            window.scrollTo(0,0);
+            return state;
+        case "TOGGLE_THEME":
+            return {...initalState, theme:action.payload}
         default:
             return state;
     }

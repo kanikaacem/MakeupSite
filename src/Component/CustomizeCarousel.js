@@ -9,13 +9,13 @@ function CustomizeCarousel(){
         showThumbs={false}
         showStatus={false}>
             <div>
-                <img src="https://preview.colorlib.com/theme/makeupartist/img/hero/hero-1.jpg.webp" />
+                <img src="https://preview.colorlib.com/theme/makeupartist/img/hero/hero-1.jpg.webp" alt="image1" />
             </div>
             <div>
-                <img src="https://preview.colorlib.com/theme/makeupartist/img/hero/hero-1.jpg.webp" />
+                <img src="https://preview.colorlib.com/theme/makeupartist/img/hero/hero-1.jpg.webp" alt="image2" />
             </div>
             <div>
-                <img src="https://preview.colorlib.com/theme/makeupartist/img/hero/hero-1.jpg.webp" />
+                <img src="https://preview.colorlib.com/theme/makeupartist/img/hero/hero-1.jpg.webp" alt="image3" />
             </div>
         </Carousel>
  </>)
